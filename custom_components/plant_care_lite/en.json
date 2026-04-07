@@ -1,0 +1,58 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add plant",
+        "data": {
+          "name": "Plant name",
+          "group": "Plant group"
+        },
+        "data_description": {
+          "name": "The display name for this plant (e.g. Ficus).",
+          "group": "Select the group that best matches this plant's water needs."
+        }
+      }
+    },
+    "error": {
+      "name_exists": "A plant with this name already exists.",
+      "name_empty": "Plant name cannot be empty."
+    },
+    "abort": {
+      "already_configured": "This plant is already configured."
+    }
+  },
+  "options": {},
+  "selector": {
+    "group": {
+      "options": {
+        "succulent": "Succulents and cacti",
+        "drought_tolerant": "Drought tolerant",
+        "tropical": "Tropical",
+        "climbing": "Climbing plants",
+        "fern": "Ferns and moisture-loving"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "watering_interval": {
+        "name": "Watering interval"
+      },
+      "last_watered": {
+        "name": "Last watered"
+      },
+      "status": {
+        "name": "Watering status",
+        "state": {
+          "ok": "OK",
+          "water": "Water"
+        }
+      }
+    },
+    "button": {
+      "water_now": {
+        "name": "Water now"
+      }
+    }
+  }
+}

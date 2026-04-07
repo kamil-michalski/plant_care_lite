@@ -1,0 +1,58 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dodaj roślinę",
+        "data": {
+          "name": "Nazwa rośliny",
+          "group": "Grupa rośliny"
+        },
+        "data_description": {
+          "name": "Nazwa wyświetlana dla tej rośliny (np. Fikus).",
+          "group": "Wybierz grupę najlepiej odpowiadającą potrzebom wodnym tej rośliny."
+        }
+      }
+    },
+    "error": {
+      "name_exists": "Roślina o tej nazwie już istnieje.",
+      "name_empty": "Nazwa rośliny nie może być pusta."
+    },
+    "abort": {
+      "already_configured": "Ta roślina jest już skonfigurowana."
+    }
+  },
+  "options": {},
+  "selector": {
+    "group": {
+      "options": {
+        "succulent": "Sukulenty i kaktusy",
+        "drought_tolerant": "Sucholubne",
+        "tropical": "Tropikalne",
+        "climbing": "Pnącza",
+        "fern": "Paprocie i wilgociolubne"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "watering_interval": {
+        "name": "Interwał podlewania"
+      },
+      "last_watered": {
+        "name": "Ostatnie podlewanie"
+      },
+      "status": {
+        "name": "Status podlewania",
+        "state": {
+          "ok": "OK",
+          "water": "Podlej"
+        }
+      }
+    },
+    "button": {
+      "water_now": {
+        "name": "Podlej teraz"
+      }
+    }
+  }
+}

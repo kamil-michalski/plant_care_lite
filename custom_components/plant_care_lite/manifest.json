@@ -1,0 +1,12 @@
+{
+  "domain": "plant_care_lite",
+  "name": "Plant Care Lite",
+  "version": "2026.4.1",
+  "config_flow": true,
+  "dependencies": [],
+  "requirements": [],
+  "iot_class": "calculated",
+  "documentation": "https://github.com/kamil-michalski/plant_care_lite",
+  "codeowners": ["@kamil-michalski"],
+  "issue_tracker": "https://github.com/kamil-michalski/plant_care_lite/issues"
+}
