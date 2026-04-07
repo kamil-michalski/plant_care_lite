@@ -1,4 +1,4 @@
-Plant Care Lite
+Plant Care Lite (EN)
 ===============
 A custom Home Assistant integration for tracking plant watering schedules.
 Version: 2026.4.1
@@ -149,7 +149,7 @@ MIT License. See LICENSE file for details.
 -------------------------------------------------------------------------------
 
 
-Plant Care Lite
+Plant Care Lite (PL)
 ===============
 Niestandardowa integracja Home Assistant do śledzenia harmonogramów podlewania
 roślin.
