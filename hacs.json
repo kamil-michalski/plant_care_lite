@@ -1,0 +1,6 @@
+{
+  "name": "Plant Care Lite",
+  "render_readme": true,
+  "category": "integration",
+  "homeassistant": "2026.4.1"
+}
